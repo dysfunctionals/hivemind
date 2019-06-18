@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flask = "*"
 mcipc = "*"
+mojang-api = "*"
 gunicorn = "*"
 
 [dev-packages]
