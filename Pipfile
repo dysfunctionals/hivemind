@@ -5,9 +5,7 @@ name = "pypi"
 
 [packages]
 flask = "*"
-flask-scss = "*"
-requests = "*"
-sparkpost = "*"
+mcipc = "*"
 gunicorn = "*"
 
 [dev-packages]
@@ -21,9 +19,7 @@ flake8-mutable = "*"
 flake8-todo = "*"
 flake8-tuple = "*"
 
-[requires]
-python_version = "3.6"
 
 [scripts]
 
-serve = "gunicorn -b 127.0.0.1:8080 commentonx:app"
+serve = "gunicorn -b 127.0.0.1:8080 hivemind:app"

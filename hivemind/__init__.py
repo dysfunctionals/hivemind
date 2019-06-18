@@ -1,7 +1,6 @@
 from flask import Flask
-from flask_scss import Scss
 
-from commentonx.config import config
+from hivemind.config import config
 
 app = Flask(__name__)
 
@@ -14,6 +13,5 @@ else:
     app.jinja_env.globals['VIEW_CONFIG'] = {}
 
 app.secret_key = app.config["SESSION_KEY"]
-Scss(app)
 
-from commentonx import views  # noqa F401, E402
+from hivemind import views  # noqa F401, E402
