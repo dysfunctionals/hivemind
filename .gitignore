@@ -1,6 +1,5 @@
-commentonx/config.py
-commentonx/static/*.css
-commentonx/static/*.css.map
+hivemind/config.py
+.vscode/
 # Created by https://www.gitignore.io/api/python,pycharm+all
 
 ### PyCharm+all ###
